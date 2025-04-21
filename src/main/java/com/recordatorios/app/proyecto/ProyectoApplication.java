@@ -10,10 +10,6 @@ public class ProyectoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ProyectoApplication.class, args);
-
-		int numero = 12;
-		boolean esPar = numero % 2 == 0;
-		String mensaje = esPar ? "Es par" : "Es impar";
 	}
 
 
