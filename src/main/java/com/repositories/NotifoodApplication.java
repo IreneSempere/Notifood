@@ -1,4 +1,4 @@
-package com.recordatorios.app.proyecto;
+package com.repositories;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,11 +6,10 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@EnableJpaRepositories(basePackages = "com.repositories") // Escanea el paquete de repositorios
-@EntityScan(basePackages = "com.entities") // Escanea el paquete de entidades
-public class ProyectoApplication {
-
+@EnableJpaRepositories(basePackages = "com.repositories")
+@EntityScan(basePackages = "com.entities") 
+public class NotifoodApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ProyectoApplication.class, args);
+        SpringApplication.run(NotifoodApplication.class, args);
     }
 }
