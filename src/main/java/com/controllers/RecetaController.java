@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import com.entities.Receta;
 import com.repositories.RecetaRepository;
 
+
 @Controller
 public class RecetaController {
 
